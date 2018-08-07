@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>动态添加内容</title>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/extension.js"></script>
+		<style type="text/css">
+			
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			
+			body {
+				font-size: 10px;
+			}
+			
+			.monster-sel-item li {
+				float: left;
+				margin: 0 4px;
+			}
+			
+			.clearFlow {
+				clear: both;
+			}
+			
+			.edit_container {
+				padding: 4px 10px;
+				border: 1px solid black;
+			}
+			
+			.edit_container .item_edit input[type=text] {
+				border: 0;
+				outline: none;
+				line-height: 1rem;
+			}
+			
+			.edit_container .item_edit input[type=text]:focus {
+				border: 0;
+			}
+			
+			.monster-sel-item .node-default {
+				border: 1px solid darkcyan;
+				border-radius: 4px;
+				padding: 2px 4px;
+				font-size: 0.8rem;
+				cursor: pointer;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+
+		<div class="edit_container">
+
+			<ul class="monster-sel-item">
+				<li class="item_edit">
+					<input type="text" class="edit-animal" item_style=""/>
+				</li>
+			</ul>
+
+			<div class="clearFlow"></div>
+
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+		
+		/**
+		 * 
+		 */
+		function MonsterSelListHelper() {
+
+			var normal_ele = "<li class='node-default'>{0}</li>";
+
+			var delConfirmContent = "是否确认删除此项";
+
+			/**
+			 * 添加
+			 * @param {Object} value
+			 * @param {Object} $editEle
+			 */
+			function addItem(value, $editEle) {
+
+				var item_style = $editEle.prop("item_style");
+
+				var template;
+
+				if(item_style){
+					
+					template = $(item_style);
+					
+				}else{
+					template = normal_ele;
+				}
+
+				if(value && value.trim()) {
+
+					var $eleInfo = $(template.format(value));
+					
+					console.log($eleInfo);
+					
+					$editEle.before($eleInfo);
+					
+					$eleInfo.click(function(){
+						removeEle($(this));
+					});
+					
+//					$eleInfo.click(removeEle());
+					
+				}
+
+			}
+
+			/**
+			 * 删除
+			 * @param {Object} $ele
+			 */
+			function removeEle($ele){
+				if(confirm(delConfirmContent)){
+					$ele.remove();
+				}
+			}
+
+
+			/**
+			 * 初始化
+			 */
+			function init() {
+
+				$(".monster-sel-item").each(function() {
+
+					var $ele = $(this).find(".edit-animal");
+
+					//采用keyup 避免录入中文时读取不到
+					$ele.off("keyup");
+
+					$ele.on("keyup",null,function(keyEvent){
+//						var inputKey = keyEvent.originalEvent.keyCode; //当前输入键
+//						console.log(keyEvent);
+
+						var value = $(this).val().trim();
+						
+						value = value.replace(/[,|，]/," ");
+						
+						var arr = value.split(" ");
+						
+//						console.log(arr);
+						
+						if(arr.length>1){
+							for (var i = 0; i < arr.length; i++) {
+								addItem(arr[i],$ele);
+							}
+							$(this).val("");
+						}
+
+//						if(inputKey === 188 || inputKey === 16) {
+//							addItem(value, $ele);
+//							$(this).val("");
+//							return false;
+//						}
+
+					});
+
+					$ele.off("paste");
+					$ele.on("paste",null,function(event){
+						
+						var value = $(this).val() + event.originalEvent.clipboardData.getData('text');
+						
+						value = value.replace(/[,|，]/," ");
+						
+						var arr = value.split(" ");
+						
+						console.log(arr);
+						
+						if(arr.length>1){
+							for (var i = 0; i < arr.length; i++) {
+								addItem(arr[i],$ele);
+							}
+							$(this).val("");
+						}
+
+						
+					})
+
+				});
+
+			}
+
+			return {
+				init
+			}
+
+		};
+
+		$(".item_edit input").focus();
+
+		var helper = MonsterSelListHelper();
+		helper.init();
+		
+	</script>
+
+</html>

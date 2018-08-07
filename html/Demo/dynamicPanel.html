@@ -32,6 +32,7 @@
 			.edit_container .item_edit input[type=text]{
 				border: 0;
 				outline:none;
+				line-height: 1rem;
 			}
 			
 			.edit_container .item_edit input[type=text]:focus{
@@ -72,8 +73,11 @@
 			var inputKey = keyEvent.originalEvent.key;//当前输入键
 			
 			if(inputKey == ','){
-				addItem($(this).val());
-				$(this).val("");
+				var value = $(this).val();
+				if(value){
+					addItem(value);
+					$(this).val("");
+				}
 				return false;
 			}
 			
