@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>动态添加内容</title>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" src="js/extension.js" ></script>
+		<style type="text/css">
+			
+			*{margin: 0;padding: 0;}
+			
+			li{list-style: none;}
+			
+			body{
+				font-size: 10px;
+			}
+			
+			.item_list li{
+				float: left;
+				margin: 0 4px;
+			}
+			
+			.clearFlow{
+				clear: both;
+			}
+			
+			.edit_container{
+				padding: 4px 10px;
+				border: 1px solid black;
+			}
+			
+			.edit_container .item_edit input[type=text]{
+				border: 0;
+				outline:none;
+				line-height: 1rem;
+			}
+			
+			.edit_container .item_edit input[type=text]:focus{
+				border: 0;
+			}
+			
+			.item_node{
+				border: 1px solid darkcyan;
+				border-radius: 4px;
+				padding: 2px 4px;
+				font-size: 0.8rem;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="edit_container">
+			
+			<ul class="item_list">
+				<li class="item_edit">
+					<input type="text" />
+				</li>
+			</ul>
+			
+		<div class="clearFlow"></div>
+		
+		</div>
+		
+	</body>
+	
+	<script type="text/javascript">
+		
+		$(".item_edit input").focus();
+		
+		$(".item_edit input").keypress(function(keyEvent){
+			
+			var inputKey = keyEvent.originalEvent.key;//当前输入键
+			
+			if(inputKey == ','){
+				var value = $(this).val();
+				if(value){
+					addItem(value);
+					$(this).val("");
+				}
+				return false;
+			}
+			
+		});
+		
+		function addItem(str){
+			
+			var ele = "<li class='item_node'>{0}</li>";
+			
+			var eleInfo = ele.format(str);
+			
+			$(".item_edit").before(eleInfo);
+
+		}
+		
+	</script>
+	
+</html>
