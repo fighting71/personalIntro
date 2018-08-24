@@ -1,7 +1,9 @@
 
 ![root配置](https://i.imgur.com/TkQa6s9.png)
 
+> 程序组成
 
+![构建组成](https://docs.microsoft.com/en-us/azure/service-fabric/media/service-fabric-application-model/application-model.png)
 
 > root组成
 
@@ -50,6 +52,11 @@
 		Endpoints 端口配置
 
 > 代码解析【回去弄=-=】
+
+
+----------
+
+	理解
 
 ----------
 author:monster
