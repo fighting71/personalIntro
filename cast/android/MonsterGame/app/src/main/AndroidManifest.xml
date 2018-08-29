@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="game.monster.com.monstergame">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".avtivity.EnvironmentActivity" />
+        <activity android:name=".avtivity.AppInteractiveActivity" />
+        <activity android:name=".avtivity.ArithmeticGameActivity" />
+        <activity android:name=".avtivity.ViewPagerDemoActivity" />
+        <activity android:name=".avtivity.ViewPagerDemo2Activity" />
+        <activity android:name=".avtivity.ViewPagerDemo3Activity" />
+        <activity
+            android:name=".avtivity.ViewPagerDemo4Activity"
+            android:label="@string/title_activity_view_pager_demo4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".avtivity.ArthmeticExpressionActivity"
+            android:label="@string/title_activity_arthmetic_expression"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".avtivity.CutPictureActivity"
+            android:label="@string/title_activity_cut_picture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".avtivity.ServiceFabricIntroActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MonsterGame</string>
+    <string name="game_rule_intro">爱丽丝和鲍博喜欢玩一维战舰的游戏。他们在一行有n个方格的纸上玩这个游戏（也就是1×n的表格）。 在游戏开始的时候，爱丽丝放k个战舰在这个表格中，并不把具体位置告诉鲍博。每一只战舰的形状是 1×a 的长方形（也就是说，战舰会占据a个连续的方格）。这些战舰不能相互重叠，也不能相接触。 然后鲍博会做一系列的点名。当他点到某个格子的时候，爱丽丝会告诉他那个格子是否被某只战舰占据。如果是，就说hit，否则就说miss。 但是这儿有一个问题！爱丽丝喜欢撒谎。他每次都会告诉鲍博miss。 请你帮助鲍博证明爱丽丝撒谎了，请找出哪一步之后爱丽丝肯定撒谎了。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_pager_demo4">ViewPagerDemo4Activity</string>
+    <string name="title_activity_arthmetic_expression">ArthmeticExpressionActivity</string>
+    <string name="title_activity_cut_picture">CutPictureActivity</string>
+</resources>
