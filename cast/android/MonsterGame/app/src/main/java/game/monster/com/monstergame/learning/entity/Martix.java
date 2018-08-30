@@ -59,7 +59,7 @@ public class Martix implements Cloneable {
     /**
      * @param martix
      * @return
-     * @throws Exception
+     * @throws Exception 两个矩阵的乘法仅当第一个矩阵A的列数(column)和另一个矩阵B的行数(row)相等时才能定义
      */
     public Martix multiply(Martix martix) throws Exception {
 
@@ -94,7 +94,7 @@ public class Martix implements Cloneable {
     /**
      * @param martix
      * @return
-     * @throws Exception
+     * @throws Exception 矩阵行列需匹配
      */
     public Martix add(Martix martix) throws Exception {
         if (this.getRowNum() != martix.getRowNum() || this.getColNum() != martix.getColNum()) {
@@ -126,10 +126,6 @@ public class Martix implements Cloneable {
 
         return instance[rowIndex][colIndex];
 
-    }
-
-    public Martix getClone() throws CloneNotSupportedException {
-        return (Martix) this.clone();
     }
 
 }

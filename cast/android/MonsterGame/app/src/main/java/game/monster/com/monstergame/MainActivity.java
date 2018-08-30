@@ -2,7 +2,6 @@ package game.monster.com.monstergame;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -24,7 +23,7 @@ import game.monster.com.monstergame.avtivity.ViewPagerDemo4Activity;
 import game.monster.com.monstergame.avtivity.ViewPagerDemoActivity;
 import game.monster.com.monstergame.cusInterface.IClickListener;
 import game.monster.com.monstergame.cusRealize.clickListener.SkipListener;
-import game.monster.com.monstergame.learning.MartixL;
+import game.monster.com.monstergame.learning.LReverseInteger;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,14 +43,20 @@ public class MainActivity extends AppCompatActivity {
 
         initListener();
 
-        MartixL martixL = new MartixL();
-        try {
-            martixL.test();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        MartixL martixL = new MartixL();
+//        try {
+//            martixL.test();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+//        LArithmeticOne arithmeticOne = new LArithmeticOne();
+//        arithmeticOne.test();
 
 //        test();
+
+//        LReverseInteger lReverseInteger = new LReverseInteger();
+//        lReverseInteger.test();
 
     }
 
