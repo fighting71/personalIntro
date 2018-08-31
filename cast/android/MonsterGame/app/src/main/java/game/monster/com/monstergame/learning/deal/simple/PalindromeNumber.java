@@ -1,4 +1,4 @@
-package game.monster.com.monstergame.learning.deal;
+package game.monster.com.monstergame.learning.deal.simple;
 
 
 import java.util.ArrayList;
@@ -39,5 +39,35 @@ public class PalindromeNumber {
         return true;
 
     }
+
+    /**
+     * @param x
+     * @return
+     */
+    public boolean otherIsPalindrome(int x) {
+
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int ret = 0;
+
+        //1234321
+        //
+        //1 123432
+        //12  12343
+        //123 1234
+        //1234 123
+
+
+        while (x > ret) {
+            ret = ret * 10 + (x % 10);
+            x = x / 10;
+        }
+
+        return x == ret || x == ret / 10;//第二个验证用于去除中间的数 例如  12321 得到 123 与 12 比对 由于中间数无实义 可直接去除
+
+    }
+
 
 }

@@ -1,4 +1,4 @@
-package game.monster.com.monstergame.learning.deal;
+package game.monster.com.monstergame.learning.deal.simple;
 
 
 import java.util.Arrays;

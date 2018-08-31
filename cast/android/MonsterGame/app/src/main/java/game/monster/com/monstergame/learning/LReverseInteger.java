@@ -5,7 +5,7 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 import java.util.List;
 
-import game.monster.com.monstergame.learning.deal.ReverseInteger;
+import game.monster.com.monstergame.learning.deal.simple.ReverseInteger;
 import game.monster.com.monstergame.learning.utils.CommandUtils;
 
 /**

@@ -5,7 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.gson.Gson;
+
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 import butterknife.BindView;
@@ -23,7 +26,8 @@ import game.monster.com.monstergame.avtivity.ViewPagerDemo4Activity;
 import game.monster.com.monstergame.avtivity.ViewPagerDemoActivity;
 import game.monster.com.monstergame.cusInterface.IClickListener;
 import game.monster.com.monstergame.cusRealize.clickListener.SkipListener;
-import game.monster.com.monstergame.learning.LReverseInteger;
+import game.monster.com.monstergame.learning.deal.simple.RomantoInteger;
+import game.monster.com.monstergame.learning.utils.CommandUtils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +46,54 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         initListener();
+
+//        PalindromeNumber palindromeNumber = new PalindromeNumber();
+//
+//        palindromeNumber.otherIsPalindrome(1234321);
+
+        RomantoInteger romantoInteger = new RomantoInteger();
+
+        Gson gson = new Gson();
+
+        CommandUtils.countTime(() -> {
+
+            Map<String, Integer> map = new Hashtable<>();
+
+            for (int i = 0; i < 100; i++) {
+
+                map.put("IXCABCVFCM", romantoInteger.optmizeRomanToInt("IXCABCVFCM"));
+                map.put("III", romantoInteger.optmizeRomanToInt("III"));
+                map.put("IV", romantoInteger.optmizeRomanToInt("IV"));
+                map.put("IX", romantoInteger.optmizeRomanToInt("IX"));
+                map.put("LVIII", romantoInteger.optmizeRomanToInt("LVIII"));
+                map.put("MCMXCIV", romantoInteger.optmizeRomanToInt("MCMXCIV"));
+                map.put("VISAIMCXI", romantoInteger.optmizeRomanToInt("VISAIMCXI"));
+
+            }
+
+            return gson.toJson(map);
+
+        });//18 ms  80ms  50ms
+
+        CommandUtils.countTime(() -> {
+
+            Map<String, Integer> map = new Hashtable<>();
+
+            for (int i = 0; i < 100; i++) {
+
+                map.put("IXCABCVFCM", romantoInteger.otherRomanToInt("IXCABCVFCM"));
+                map.put("III", romantoInteger.otherRomanToInt("III"));
+                map.put("IV", romantoInteger.otherRomanToInt("IV"));
+                map.put("IX", romantoInteger.otherRomanToInt("IX"));
+                map.put("LVIII", romantoInteger.otherRomanToInt("LVIII"));
+                map.put("MCMXCIV", romantoInteger.otherRomanToInt("MCMXCIV"));
+                map.put("VISAIMCXI", romantoInteger.otherRomanToInt("VISAIMCXI"));
+                map.put("IVIV", romantoInteger.otherRomanToInt("IVIV"));//not roman number
+            }
+
+            return gson.toJson(map);
+
+        });// 1ms  9ms
 
 //        MartixL martixL = new MartixL();
 //        try {
