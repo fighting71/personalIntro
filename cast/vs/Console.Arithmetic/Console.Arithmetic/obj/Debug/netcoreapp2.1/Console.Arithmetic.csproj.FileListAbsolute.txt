@@ -1,0 +1,4 @@
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Console.Arithmetic.csprojAssemblyReference.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Console.Arithmetic.csproj.CoreCompileInputs.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Console.Arithmetic.AssemblyInfoInputs.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Console.Arithmetic.AssemblyInfo.cs

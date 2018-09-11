@@ -1,0 +1,11 @@
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\bin\Debug\netcoreapp2.1\Cons.Arithmetic.deps.json
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\bin\Debug\netcoreapp2.1\Cons.Arithmetic.runtimeconfig.json
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\bin\Debug\netcoreapp2.1\Cons.Arithmetic.runtimeconfig.dev.json
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\bin\Debug\netcoreapp2.1\Cons.Arithmetic.dll
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.csprojAssemblyReference.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.csproj.CoreCompileInputs.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.AssemblyInfoInputs.cache
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.AssemblyInfo.cs
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\bin\Debug\netcoreapp2.1\Cons.Arithmetic.pdb
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.dll
+F:\work_data\cast\vs\Console.Arithmetic\Console.Arithmetic\obj\Debug\netcoreapp2.1\Cons.Arithmetic.pdb

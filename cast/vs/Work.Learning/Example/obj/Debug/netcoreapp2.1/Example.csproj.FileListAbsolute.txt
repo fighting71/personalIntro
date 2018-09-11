@@ -1,0 +1,14 @@
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Example.deps.json
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Example.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Example.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Example.dll
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Example.pdb
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Command.dll
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\bin\Debug\netcoreapp2.1\Command.pdb
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.csproj.CopyComplete
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.dll
+F:\work_data\git\personalIntro\cast\vs\Work.Learning\Example\obj\Debug\netcoreapp2.1\Example.pdb
