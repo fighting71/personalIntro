@@ -725,11 +725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\work_data\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\Cons.Arithmetic.csproj",
+      "projectUniqueName": "F:\\work_data\\git\\personalIntro\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\Cons.Arithmetic.csproj",
       "projectName": "Cons.Arithmetic",
-      "projectPath": "F:\\work_data\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\Cons.Arithmetic.csproj",
+      "projectPath": "F:\\work_data\\git\\personalIntro\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\Cons.Arithmetic.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\work_data\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\obj\\",
+      "outputPath": "F:\\work_data\\git\\personalIntro\\cast\\vs\\Console.Arithmetic\\Console.Arithmetic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -34,5 +34,11 @@ spend time:{0}s
 result:{1}
 ", Stopwatch.Elapsed.TotalSeconds, JsonConvert.SerializeObject(result));
         }
+
+        public static void ShowCountTime(Func<object> runner)
+        {
+            Console.WriteLine(CountTime(runner));
+        }
+
     }
 }
