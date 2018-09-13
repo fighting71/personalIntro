@@ -35,6 +35,15 @@ result:{1}
 ", Stopwatch.Elapsed.TotalSeconds, JsonConvert.SerializeObject(result));
         }
 
+        public static double CountTime(Action runner)
+        {
+            Init();
+
+            runner.Invoke();
+
+            return Stopwatch.Elapsed.TotalSeconds;
+        }
+
         public static void ShowCountTime(Func<object> runner)
         {
             Console.WriteLine(CountTime(runner));

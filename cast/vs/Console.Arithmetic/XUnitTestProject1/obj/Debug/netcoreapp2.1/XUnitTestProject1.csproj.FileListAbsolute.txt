@@ -1,0 +1,17 @@
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.deps.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\XUnitTestProject1.pdb
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.pdb
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\Cons.Arithmetic.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\bin\Debug\netcoreapp2.1\Cons.Arithmetic.pdb
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\XUnitTestProject1\obj\Debug\netcoreapp2.1\XUnitTestProject1.csproj.CopyComplete

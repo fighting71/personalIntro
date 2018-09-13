@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Security;
 using System.Text;
 using Cons.Arithmetic.LeetCode;
 using Cons.Arithmetic.Tools;
@@ -14,10 +17,11 @@ namespace Cons.Arithmetic
         static void Main(string[] args)
         {
 
+            Console.WriteLine((int)'0');
+
             Console.WriteLine("Success!");
 
             Console.ReadKey();
-
         }
 
         private static void TestRotateArray()
