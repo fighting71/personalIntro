@@ -7,6 +7,8 @@ using System.Runtime.CompilerServices;
 using System.Security;
 using System.Text;
 using Cons.Arithmetic.LeetCode;
+using Cons.Arithmetic.LeetCode.Design;
+using Cons.Arithmetic.LeetCode.Design.Inherit;
 using Cons.Arithmetic.Tools;
 using Newtonsoft.Json;
 
@@ -16,8 +18,17 @@ namespace Cons.Arithmetic
     {
         static void Main(string[] args)
         {
+            ILinkedList<string> list = new SimpleLinkedList<string>();
 
-            Console.WriteLine((int)'0');
+            list.AddAtHead("head");
+            list.AddAtTail("tail");
+            list.AddAtIndex(1, "index");
+
+            list.DeleteAtIndex(1);
+
+            Console.WriteLine(list);
+
+            Console.WriteLine((int) '0');
 
             Console.WriteLine("Success!");
 

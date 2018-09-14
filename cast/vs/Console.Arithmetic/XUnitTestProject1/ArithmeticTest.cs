@@ -11,6 +11,7 @@ using Xunit.Abstractions;
 
 namespace XUnitTestProject1
 {
+
     public class ArithmeticTest : IDisposable
     {
         private ITestOutputHelper _output;
@@ -98,7 +99,7 @@ otherSolution:{otherSolution}
             }
         }
 
-        [Fact(DisplayName = "LetterCasePermutation")]
+        [Fact(DisplayName = "LetterCasePermutation", Skip = "SUCCESS")]
         public void TestLetterCasePermutation()
         {
             int testNum = 100000;
@@ -132,14 +133,30 @@ otherSolution:{otherSolution}
 
                 string str = new string(arr);
 
-                var simple = demo.Simple(str);
+                IList<string> bfsSolution = demo.BFSSolution(str);
+
+                List<string> dfsSolution = (List<string>) demo.DFSSolution(str);
 
                 _output.WriteLine($@"
+
 str:{str}
-result:{JsonConvert.SerializeObject(simple)}
-size:{simple.Count}
+bfs:{JsonConvert.SerializeObject(bfsSolution)}
+dfs:{JsonConvert.SerializeObject(dfsSolution)}
+
 ");
 
+                for (int k = 0; k < dfsSolution.Count; k++)
+                {
+                    var item = dfsSolution[k];
+
+                    var contains = bfsSolution.Contains(item);
+
+                    var indexOf = dfsSolution.IndexOf(item, k + 1);
+
+                    Assert.Equal(indexOf, -1);
+
+                    Assert.Equal(contains, true);
+                }
             }
         }
 
