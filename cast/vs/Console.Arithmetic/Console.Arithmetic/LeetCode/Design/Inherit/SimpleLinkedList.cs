@@ -110,6 +110,7 @@ namespace Cons.Arithmetic.LeetCode.Design.Inherit
                 eachNode.Prev.Next = null;
             }
 
+            _size--;
 
         }
     }
