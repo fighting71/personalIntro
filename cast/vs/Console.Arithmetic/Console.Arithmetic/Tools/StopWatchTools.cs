@@ -23,7 +23,7 @@ namespace Cons.Arithmetic.Tools
             }
         }
 
-        public static string CountTime(Func<object> runner)
+        public static string CountTimeStr(Func<object> runner)
         {
             Init();
 
@@ -33,6 +33,15 @@ namespace Cons.Arithmetic.Tools
 spend time:{0}s
 result:{1}
 ", Stopwatch.Elapsed.TotalSeconds, JsonConvert.SerializeObject(result));
+        }
+
+        public static double CountTime(Func<object> runner)
+        {
+            Init();
+
+            var result = runner.Invoke();
+
+            return Stopwatch.Elapsed.TotalSeconds;
         }
 
         public static double CountTime(Action runner)
