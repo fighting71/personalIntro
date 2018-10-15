@@ -19,17 +19,53 @@ using Newtonsoft.Json;
 
 namespace Cons.Arithmetic
 {
+
+    class Compare: IEqualityComparer<int>
+    {
+        public bool Equals(int x, int y)
+        {
+            return x == y;
+        }
+
+        public int GetHashCode(int obj)
+        {
+            return obj.GetHashCode();
+        }
+    }
+
     public class Program
     {
         private static void Main(string[] args)
         {
+            int[] arr = {5,3,15,3,1,2};
 
-            ReverseOnlyLetters demo = new ReverseOnlyLetters();
+            var array = Enumerable.Distinct(arr, new Compare()).OrderByDescending(u => u)
+                
+                .Select((value, index) =>
+                    new {value, showName = (index == 0 ? "win" : (index + 1).ToString())})
+                .ToDictionary(u => u.value);
+
+            Enumerable.Distinct(arr, new Compare());
+
+            var finaly = arr.Select(u => array[u].showName).ToArray();
 
 
-            Console.WriteLine(demo.OtherSolution("a-bC-dEf-ghIj"));
+            Console.WriteLine(JsonConvert.SerializeObject(finaly));
 
+            //            KeyboardRow demo = new KeyboardRow();
+            //
+            //            //var result = demo.Simple(new string[] { "Hello", "Alaska", "Dad", "Peace" });
+            //            var result = demo.Simple(new string[] { "a","b" });
+            //
+            //            Console.WriteLine(JsonConvert.SerializeObject(result));
 
+            //GoatLatin demo = new GoatLatin();
+
+            //Console.WriteLine(demo.Simple("I speak Goat Latin"));
+            //Console.WriteLine(demo.Simple("The quick brown fox jumped over the lazy dog"));
+
+            //ReverseOnlyLetters demo = new ReverseOnlyLetters();
+            //Console.WriteLine(demo.OtherSolution("a-bC-dEf-ghIj"));
             //Console.WriteLine(demo.Simple("ab-cd"));
             //Console.WriteLine(demo.Simple("a-bC-dEf-ghIj"));
             //Console.WriteLine(demo.Simple("Test1ng-Leet=code-Q!"));

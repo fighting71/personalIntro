@@ -16,7 +16,11 @@ namespace XUnitTestProject1
 {
     public class ArithmeticTest : IDisposable
     {
+        private const string SUCCESS = nameof(SUCCESS);
+
         private ITestOutputHelper _output;
+
+        Random rand = new Random();
 
         public ArithmeticTest(ITestOutputHelper output)
         {
@@ -24,7 +28,7 @@ namespace XUnitTestProject1
             _output.WriteLine("Execute constructor!");
         }
 
-        [Fact(DisplayName = "TestReverseOnlyLetters")]
+        [Fact(DisplayName = "TestReverseOnlyLetters", Skip = SUCCESS)]
         public void TestReverseOnlyLetters()
         {
             var demo = new ReverseOnlyLetters();
@@ -33,14 +37,13 @@ namespace XUnitTestProject1
 
             for (int i = 0; i < 1000; i++)
             {
-
                 var len = rand.Next(10) + 25;
 
                 char[] arr = new char[len];
 
                 for (int j = 0; j < len; j++)
                 {
-                    arr[j] = (char)(rand.Next('z') + 65);
+                    arr[j] = (char) (rand.Next('z') + 65);
                 }
 
                 var str = new string(arr);
@@ -49,7 +52,7 @@ namespace XUnitTestProject1
 
                 //var otherSolution = demo.OtherSolution(str);
 
-                var otherSolution = StopWatchTools.CountTime(()=>demo.OtherSolution(str));
+                var otherSolution = StopWatchTools.CountTime(() => demo.OtherSolution(str));
                 var solution = StopWatchTools.CountTime(() => demo.Solution(str));
 
                 _output.WriteLine($@"
@@ -69,9 +72,37 @@ otherSolution time:{otherSolution}
                 //");
 
                 //                Assert.Equal(solution, otherSolution);
-
             }
+        }
 
+        [Fact(DisplayName = "TestRelativeRanks")]
+        public void TestRelativeRanks()
+        {
+            RelativeRanks demo = new RelativeRanks();
+
+            for (int i = 0; i < 1000; i++)
+            {
+                int randNum = rand.Next(11);
+
+                int[] arr = new int[randNum];
+
+                for (int j = 0; j < arr.Length; j++)
+                {
+                    arr[j] = rand.Next(10);
+                }
+
+                var simple = demo.Simple(arr);
+
+                var otherSolution = demo.OtherSolution(arr);
+
+                _output.WriteLine($@"
+{nameof(arr)}:{JsonConvert.SerializeObject(arr)}
+{nameof(simple)}:{JsonConvert.SerializeObject(simple)}
+{nameof(otherSolution)}:{JsonConvert.SerializeObject(otherSolution)}
+");
+
+                Assert.Equal(JsonConvert.SerializeObject(simple), JsonConvert.SerializeObject(otherSolution));
+            }
         }
 
         public void Dispose()

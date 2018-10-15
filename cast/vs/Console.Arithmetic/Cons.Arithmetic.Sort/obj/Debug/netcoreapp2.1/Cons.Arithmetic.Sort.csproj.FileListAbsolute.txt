@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\bin\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.deps.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\bin\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\bin\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\bin\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\bin\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.pdb
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.dll
+F:\work_data\git\personalIntro\cast\vs\Console.Arithmetic\Cons.Arithmetic.Sort\obj\Debug\netcoreapp2.1\Cons.Arithmetic.Sort.pdb

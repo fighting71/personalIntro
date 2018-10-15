@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cons.Arithmetic", "Console.Arithmetic\Cons.Arithmetic.csproj", "{E375260A-591B-4AF2-97B5-1680B5F099EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{F457F9EB-5AC4-45DC-A5B3-72ED080C4925}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{F457F9EB-5AC4-45DC-A5B3-72ED080C4925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cons.Arithmetic.Sort", "Cons.Arithmetic.Sort\Cons.Arithmetic.Sort.csproj", "{BF761582-FE22-4B91-B242-218C3FDD72D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F457F9EB-5AC4-45DC-A5B3-72ED080C4925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F457F9EB-5AC4-45DC-A5B3-72ED080C4925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F457F9EB-5AC4-45DC-A5B3-72ED080C4925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF761582-FE22-4B91-B242-218C3FDD72D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF761582-FE22-4B91-B242-218C3FDD72D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF761582-FE22-4B91-B242-218C3FDD72D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF761582-FE22-4B91-B242-218C3FDD72D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
