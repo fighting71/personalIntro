@@ -65,6 +65,7 @@ namespace Cons.Arithmetic.Sort.Note.Stabilization
 
         public static void new_merge_sort(int[] arr)
         {
+            //申请空间
             int[] orderedArr = new int[arr.Length];
             for (int i = 2; i < arr.Length * 2; i *= 2)
             {

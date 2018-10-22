@@ -14,15 +14,9 @@ namespace Cons.Arithmetic.Sort
 
             Console.WriteLine("Hello World!");
 
-            int[] arr = {1, 2, 3, 4};
+            int[] arr = {4, 1, 12, 8, 6, 7, 4, 3, 1, 5, 9, 7, 5, 6, 1, 13, 7};
 
-            ShellSort.shellSort(arr);
-
-            Console.WriteLine("-------------" + JsonConvert.SerializeObject(arr));
-
-            arr = new int[] {4, 2, 1, 3};
-
-            ShellSort.shellSort(arr);
+            QuickSort.qSort(arr, 0, arr.Length - 1);
 
             Console.WriteLine("-------------" + JsonConvert.SerializeObject(arr));
 

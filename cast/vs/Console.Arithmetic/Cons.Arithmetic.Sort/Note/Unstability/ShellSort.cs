@@ -18,18 +18,27 @@ namespace Cons.Arithmetic.Sort.Note.Unstability
     public class ShellSort
     {
         /// <summary>
-        /// 个人理解
+        /// 
         /// </summary>
         /// <param name="array"></param>
         public static void Sort(int[] array)
         {
-            int step = array.Length / 2, temp;
+            int step = array.Length / 2, temp, j;
 
             while (step >= 1)
             {
                 for (int i = step; i < array.Length; i += step)
                 {
-                    //error
+                    temp = array[i];
+                    j = i - step;
+
+                    while (j >= 0 && array[j] > temp)
+                    {
+                        array[j + step] = array[j];
+                        j -= step;
+                    }
+
+                    array[j + step] = temp;
                 }
 
                 step /= 2;
@@ -42,6 +51,7 @@ namespace Cons.Arithmetic.Sort.Note.Unstability
         /// <param name="array"></param>
         public static void shellSort(int[] array)
         {
+            //step1:确定步长
             int number = array.Length / 2;
             int i;
             int j;
@@ -53,7 +63,7 @@ namespace Cons.Arithmetic.Sort.Note.Unstability
                     temp = array[i];
                     j = i - number;
                     //mmp 一开始感觉不对劲 原来是反序了.
-                    while (j >= 0 && array[j] > temp)// > ==> 正序排序   < ==> 反序排序 
+                    while (j >= 0 && array[j] > temp) // > ==> 正序排序   < ==> 反序排序 
                     {
                         array[j + number] = array[j];
                         j = j - number;
@@ -63,7 +73,7 @@ namespace Cons.Arithmetic.Sort.Note.Unstability
                     array[j + number] = temp;
                 }
 
-                number = number / 2;
+                number = number >> 1; //步长调整 << 1
             }
         }
     }

@@ -9,18 +9,19 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Security;
 using System.Text;
+using System.Threading.Tasks;
 using Cons.Arithmetic.Book;
 using Cons.Arithmetic.LeetCode;
 using Cons.Arithmetic.LeetCode.Design;
 using Cons.Arithmetic.LeetCode.Design.Inherit;
+using Cons.Arithmetic.LeetCode.Middle;
 using Cons.Arithmetic.LeetCode.Week.Two;
 using Cons.Arithmetic.Tools;
 using Newtonsoft.Json;
 
 namespace Cons.Arithmetic
 {
-
-    class Compare: IEqualityComparer<int>
+    class Compare : IEqualityComparer<int>
     {
         public bool Equals(int x, int y)
         {
@@ -33,24 +34,140 @@ namespace Cons.Arithmetic
         }
     }
 
+
+    public class Temp
+    {
+        public string name { get; set; }
+        public string u { get; set; }
+    }
+
     public class Program
     {
         private static void Main(string[] args)
         {
-            int[] arr = {5,3,15,3,1,2};
+            GameOfLife demo = new GameOfLife();
 
-            var array = Enumerable.Distinct(arr, new Compare()).OrderByDescending(u => u)
-                
-                .Select((value, index) =>
-                    new {value, showName = (index == 0 ? "win" : (index + 1).ToString())})
-                .ToDictionary(u => u.value);
+            Random rand = new Random();
 
-            Enumerable.Distinct(arr, new Compare());
+            for (int i = 0; i < 10; i++)
+            {
+                var row = rand.Next(10) + 20;
+                var line = rand.Next(10) + 20;
+                var randArr = new int[row][];
+                var newArr = new int[row][];
+                for (int j = 0; j < row; j++)
+                {
+                    randArr[j] = new int[line];
+                    newArr[j] = new int[line];
+                    for (int k = 0; k < line; k++)
+                    {
+                        randArr[j][k] = rand.Next(2);
+                        newArr[j][k] = randArr[j][k];
+                    }
+                }
 
-            var finaly = arr.Select(u => array[u].showName).ToArray();
+                StopWatchTools.ShowCountTime((() =>
+                {
+                    demo.Simple(randArr);
+                    return 0;
+                }));
+                StopWatchTools.ShowCountTime((() =>
+                {
+                    demo.gameOfLife(randArr);
+                    return 1;
+                }));
 
+                //                Console.WriteLine("--------------sourceArr---------------");
+                //                Console.WriteLine("old:" + JsonConvert.SerializeObject(randArr));
+                //                Console.WriteLine("--------------simple---------------");
+                //                demo.Simple(randArr);
+                //                Console.WriteLine("new:" + JsonConvert.SerializeObject(randArr));
+                //
+                //
+                //                Console.WriteLine("--------------otherSolution---------------");
+                //                demo.gameOfLife(newArr);
+                //                Console.WriteLine("new:" + JsonConvert.SerializeObject(newArr));
+            }
 
-            Console.WriteLine(JsonConvert.SerializeObject(finaly));
+            #region test
+
+            //            Heaters demo = new Heaters();
+            //            Console.WriteLine(demo.Solution(new int[]
+            //            {
+            //                1, 2, 3, 5, 15
+            //            }, new int[] {2, 30}));
+            //
+            //
+            //            Console.WriteLine(demo.Solution(new int[]
+            //            {
+            //                1, 2, 3, 4
+            //            }, new int[] {1, 4}));
+            //
+            //            Console.WriteLine(demo.Solution(new int[]
+            //            {
+            //                1, 5
+            //            }, new int[] {2}));
+            //
+            //            Console.WriteLine(demo.Solution(new int[]
+            //            {
+            //                1
+            //            }, new int[] {1, 2, 3, 4}));
+
+            //            Console.WriteLine(demo.Solution(new int[]
+            //                {
+            //                    282475249, 622650073, 984943658, 144108930, 470211272, 101027544, 457850878, 458777923
+            //                },
+            //                new int[]
+            //                {
+            //                    823564440, 115438165, 784484492, 74243042, 114807987, 137522503, 441282327, 16531729, 823378840,
+            //                    143542612
+            //                }));
+
+            //161834419
+
+            //            var simple = demo.Simple(new int[]
+            //            {
+            //                1, 2, 3, 4
+            //            }, new int[] { 1,4 });
+
+            //            PascalsTriangle demo = new PascalsTriangle();
+            //            var simple = demo.Simple(5);
+            //
+            //            Console.WriteLine(JsonConvert.SerializeObject(simple));
+
+            //            MostCommonWord demo = new MostCommonWord();
+            //
+            //            var simple = demo.Simple("hit", "Bob hit a ball, the hit BALL flew far after it was hit.".Split(" "));
+            //            Console.WriteLine(simple);
+
+            //            Console.WriteLine(ClimbingStairs.Simple(44));
+
+            //            for (int i = 0; i < 10; i++)
+            //            {
+            //                ClimbingStairs.OtherSolution(i);
+            //                Console.WriteLine("-----------------" + i);
+            ////                Console.WriteLine(
+            ////                    $"i:{i}  result : {ClimbingStairs.Simple(i)}   other:{ClimbingStairs.OtherSolution(i)}");
+            //            }
+
+            //            int[] arr = {5, 3, 15, 3, 1, 2};
+            //
+            //            var info = Array.BinarySearch(arr, 1);
+            //
+            //            Console.WriteLine(info);
+
+            //            var array = Enumerable.Distinct(arr, new Compare()).OrderByDescending(u => u)
+            //                
+            //                .Select((value, index) =>
+            //                    new {value, showName = (index == 0 ? "win" : (index + 1).ToString())})
+            //                .ToDictionary(u => u.value);
+            //
+            //            Enumerable.Distinct(arr, new Compare());
+            //
+            //            var finaly = arr.Select(u => array[u].showName).ToArray();
+            //
+            //
+            //            Console.WriteLine(JsonConvert.SerializeObject(finaly));
 
             //            KeyboardRow demo = new KeyboardRow();
             //
@@ -87,6 +204,8 @@ namespace Cons.Arithmetic
             //            //
             //            //            Console.WriteLine(rectangleOverlap.Simple(new[] { 2, 0, 5, 2 },
             //            //                new[] { 2, 1, 5, 4 }));
+
+            #endregion
 
             Console.ReadKey();
         }

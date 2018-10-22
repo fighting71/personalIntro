@@ -75,7 +75,7 @@ otherSolution time:{otherSolution}
             }
         }
 
-        [Fact(DisplayName = "TestRelativeRanks")]
+        [Fact(DisplayName = "TestRelativeRanks", Skip = SUCCESS)]
         public void TestRelativeRanks()
         {
             RelativeRanks demo = new RelativeRanks();
@@ -102,6 +102,28 @@ otherSolution time:{otherSolution}
 ");
 
                 Assert.Equal(JsonConvert.SerializeObject(simple), JsonConvert.SerializeObject(otherSolution));
+            }
+        }
+
+        [Fact(DisplayName = nameof(TestAddStrings))]
+        public void TestAddStrings()
+        {
+            Random random = new Random();
+
+            AddStrings demo = new AddStrings();
+
+            for (int i = 0; i < 100; i++)
+            {
+                var num1 = random.Next(1000000);
+                var num2 = random.Next(1000000);
+
+                var simple = demo.Solution(num1.ToString(), num2.ToString());
+
+                _output.WriteLine($@"
+{nameof(num1)}:{num1},{nameof(num2)}:{num2}   sum:{num1 + num2}   {nameof(simple)}:{simple}
+");
+
+                Assert.Equal((num1 + num2), int.Parse(simple));
             }
         }
 
