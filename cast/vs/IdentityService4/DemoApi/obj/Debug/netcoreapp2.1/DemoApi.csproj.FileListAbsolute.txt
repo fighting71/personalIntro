@@ -1,0 +1,14 @@
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\bin\Debug\netcoreapp2.1\DemoApi.deps.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\bin\Debug\netcoreapp2.1\DemoApi.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\bin\Debug\netcoreapp2.1\DemoApi.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\bin\Debug\netcoreapp2.1\DemoApi.dll
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\bin\Debug\netcoreapp2.1\DemoApi.pdb
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.dll
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.pdb
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.RazorAssemblyInfo.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.RazorAssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoApi\obj\Debug\netcoreapp2.1\DemoApi.RazorTargetAssemblyInfo.cache

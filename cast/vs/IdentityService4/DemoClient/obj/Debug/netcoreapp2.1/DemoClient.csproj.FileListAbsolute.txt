@@ -1,0 +1,10 @@
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\bin\Debug\netcoreapp2.1\DemoClient.deps.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\bin\Debug\netcoreapp2.1\DemoClient.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\bin\Debug\netcoreapp2.1\DemoClient.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\bin\Debug\netcoreapp2.1\DemoClient.dll
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\obj\Debug\netcoreapp2.1\DemoClient.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\obj\Debug\netcoreapp2.1\DemoClient.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\obj\Debug\netcoreapp2.1\DemoClient.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\bin\Debug\netcoreapp2.1\DemoClient.pdb
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\obj\Debug\netcoreapp2.1\DemoClient.dll
+F:\work_data\git\personalIntro\cast\vs\IdentityService4\DemoClient\obj\Debug\netcoreapp2.1\DemoClient.pdb

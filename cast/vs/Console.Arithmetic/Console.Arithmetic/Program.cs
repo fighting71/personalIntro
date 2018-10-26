@@ -45,49 +45,15 @@ namespace Cons.Arithmetic
     {
         private static void Main(string[] args)
         {
-            GameOfLife demo = new GameOfLife();
-
-            Random rand = new Random();
-
-            for (int i = 0; i < 10; i++)
-            {
-                var row = rand.Next(10) + 20;
-                var line = rand.Next(10) + 20;
-                var randArr = new int[row][];
-                var newArr = new int[row][];
-                for (int j = 0; j < row; j++)
-                {
-                    randArr[j] = new int[line];
-                    newArr[j] = new int[line];
-                    for (int k = 0; k < line; k++)
-                    {
-                        randArr[j][k] = rand.Next(2);
-                        newArr[j][k] = randArr[j][k];
-                    }
-                }
-
-                StopWatchTools.ShowCountTime((() =>
-                {
-                    demo.Simple(randArr);
-                    return 0;
-                }));
-                StopWatchTools.ShowCountTime((() =>
-                {
-                    demo.gameOfLife(randArr);
-                    return 1;
-                }));
-
-                //                Console.WriteLine("--------------sourceArr---------------");
-                //                Console.WriteLine("old:" + JsonConvert.SerializeObject(randArr));
-                //                Console.WriteLine("--------------simple---------------");
-                //                demo.Simple(randArr);
-                //                Console.WriteLine("new:" + JsonConvert.SerializeObject(randArr));
-                //
-                //
-                //                Console.WriteLine("--------------otherSolution---------------");
-                //                demo.gameOfLife(newArr);
-                //                Console.WriteLine("new:" + JsonConvert.SerializeObject(newArr));
-            }
+            
+            FlipStringToMonotoneIncreasing demo = new FlipStringToMonotoneIncreasing();
+            Console.WriteLine(demo.OtherSolution("00110"));
+            Console.WriteLine(demo.OtherSolution("010110"));
+            Console.WriteLine(demo.OtherSolution("00011000"));
+            Console.WriteLine(demo.OtherSolution("0101100011"));
+            Console.WriteLine(demo.OtherSolution("11111"));
+            Console.WriteLine(demo.OtherSolution("0111111111"));
+            Console.WriteLine(demo.OtherSolution("10011111110010111011"));
 
             #region test
 

@@ -85,7 +85,7 @@ namespace Cons.Arithmetic.LeetCode.Middle
         public ListNode Solution(ListNode l1, ListNode l2)
         {
             BigInteger num = 0;
-            BigInteger num2 = 0l;
+            BigInteger num2 = 0L;
 
             while (l1 != null || l2 != null)
             {
