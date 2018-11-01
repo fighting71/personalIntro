@@ -306,7 +306,7 @@ emm... 测试用户 不详解。
 
 ## words ##
 
-> grand
+> grant
 
 	vt. 授予；允许；承认
 	vi. 同意
