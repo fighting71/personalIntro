@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\bin\Debug\netcoreapp2.1\Empty.deps.json
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\bin\Debug\netcoreapp2.1\Empty.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\bin\Debug\netcoreapp2.1\Empty.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\bin\Debug\netcoreapp2.1\Empty.dll
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\bin\Debug\netcoreapp2.1\Empty.pdb
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.dll
+F:\work_data\git\personalIntro\cast\vs\Limit\Empty\obj\Debug\netcoreapp2.1\Empty.pdb

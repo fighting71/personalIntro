@@ -33,7 +33,7 @@ namespace DemoServer
             return new[]
             {
                 new ApiResource(
-                    name: "api1", 
+                    name: "api1",
                     displayName: "My API",
                     claimTypes: new List<string>() {JwtClaimTypes.Role})
             };
@@ -43,21 +43,21 @@ namespace DemoServer
         {
             return new[]
             {
-                new Client()
-                {
-                    ClientId = "client",//标识名 - 唯一
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,//grantType 指定允许的授予类型(授权码、隐式、混合、资源所有者、客户凭证的合法组合)。
-
-                    ClientSecrets =//客户端机密——仅与需要机密的流相关
-                    {
-                        new Secret("secret".Sha256())
-                    },
-                    AllowedScopes =//指定允许客户端请求的api范围。如果为空，客户端不能访问任何范围
-                    {
-                        "api1", IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
-                    }
-                },
+//                new Client()
+//                {
+//                    ClientId = "client", //标识名 - 唯一
+//                    AllowedGrantTypes = GrantTypes.ClientCredentials, //grantType 指定允许的授予类型(授权码、隐式、混合、资源所有者、客户凭证的合法组合)。
+//
+//                    ClientSecrets = //客户端机密——仅与需要机密的流相关
+//                    {
+//                        new Secret("secret".Sha256())
+//                    },
+//                    AllowedScopes = //指定允许客户端请求的api范围。如果为空，客户端不能访问任何范围
+//                    {
+//                        "api1", IdentityServerConstants.StandardScopes.OpenId,
+//                        IdentityServerConstants.StandardScopes.Profile
+//                    }
+//                },
                 new Client
                 {
                     ClientId = "ro.client",
@@ -69,10 +69,33 @@ namespace DemoServer
                     },
                     AllowedScopes =
                     {
-                        "api1", IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile, "custom.profile"
+                        "api1"
+//                        , IdentityServerConstants.StandardScopes.OpenId,
+//                        IdentityServerConstants.StandardScopes.Profile, "custom.profile"
                     }
-                }
+                },
+//                new Client
+//                {
+//                    ClientId = "mvc",
+//                    ClientName = "MVC Client",
+//                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+//
+//                    ClientSecrets =
+//                    {
+//                        new Secret("secret".Sha256())
+//                    },
+//
+//                    RedirectUris = {"http://localhost:5002/signin-oidc"},
+//                    PostLogoutRedirectUris = {"http://localhost:5002/signout-callback-oidc"},
+//
+//                    AllowedScopes =
+//                    {
+//                        IdentityServerConstants.StandardScopes.OpenId,
+//                        IdentityServerConstants.StandardScopes.Profile,
+//                        "api1"
+//                    },
+//                    AllowOfflineAccess = true
+//                }
             };
         }
 

@@ -1,0 +1,14 @@
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\bin\Debug\netcoreapp2.1\LimitServer.deps.json
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\bin\Debug\netcoreapp2.1\LimitServer.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\bin\Debug\netcoreapp2.1\LimitServer.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\bin\Debug\netcoreapp2.1\LimitServer.dll
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.RazorAssemblyInfo.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.RazorAssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.RazorTargetAssemblyInfo.cache
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\bin\Debug\netcoreapp2.1\LimitServer.pdb
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.dll
+F:\work_data\git\personalIntro\cast\vs\Limit\LimitServer\obj\Debug\netcoreapp2.1\LimitServer.pdb

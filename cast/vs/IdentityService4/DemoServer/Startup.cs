@@ -29,11 +29,12 @@ namespace DemoServer
                 //并添加其他Transient依赖
                 .AddInMemoryClients(Config.GetClients())//添加内存_客户端
 
-                .AddTestUsers(Config.GetUsers())//添加测试用户
+//                .AddTestUsers(Config.GetUsers())//添加测试用户
 
 
-                .AddProfileService<CustomProfileService>()//添加概要服务
+//                .AddProfileService<CustomProfileService>()//添加概要服务
                 .AddResourceOwnerValidator<CustomResourceOwnerPasswordValidator>();//添加资源验证对象
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

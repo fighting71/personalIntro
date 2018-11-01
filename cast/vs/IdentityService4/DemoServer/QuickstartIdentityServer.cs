@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
 using IdentityServer4.Models;
@@ -24,6 +25,11 @@ namespace DemoServer
 
         private readonly ISystemClock _clock;
 
+        public CustomResourceOwnerPasswordValidator(ISystemClock clock)
+        {
+            _clock = clock;
+        }
+
         public CustomResourceOwnerPasswordValidator(TestUserStore users, ISystemClock clock)
         {
             _users = users;
@@ -37,6 +43,22 @@ namespace DemoServer
         /// <returns></returns>
         public Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
         {
+            if (context.UserName == "monster" && context.Password == "123456")
+            {
+                context.Result = new GrantValidationResult(
+                    "1",
+                    OidcConstants.AuthenticationMethods.Password, _clock.UtcNow.UtcDateTime,
+                    new Claim[0]);
+            }
+            else
+            {
+                //验证失败
+                context.Result =
+                    new GrantValidationResult(TokenRequestErrors.InvalidGrant, "invalid custom credential");
+            }
+
+            return Task.CompletedTask;
+
             //此处使用context.UserName, context.Password 用户名和密码来与数据库的数据做校验
             if (_users.ValidateCredentials(context.UserName, context.Password))
             {

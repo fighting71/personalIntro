@@ -29,10 +29,10 @@ namespace DemoApi.Controllers
         [HttpPost]
         public IActionResult Post(int id)
         {
-
             var list = User.Claims.Select(u => new {u.Type, u.Value}).ToList();
 
             return new JsonResult(list);
         }
+        
     }
 }
