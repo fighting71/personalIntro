@@ -10,6 +10,10 @@ using Microsoft.Extensions.Logging;
 
 namespace DemoServer
 {
+
+    /// <summary>
+    /// 这个接口允许IdentityServer连接到用户和概要文件存储。
+    /// </summary>
     public class CustomProfileService : IProfileService
     {
         /// <summary>

@@ -28,6 +28,7 @@ import game.monster.com.monstergame.cusInterface.IClickListener;
 import game.monster.com.monstergame.cusRealize.clickListener.SkipListener;
 import game.monster.com.monstergame.learning.deal.simple.RomantoInteger;
 import game.monster.com.monstergame.learning.utils.CommandUtils;
+import game.monster.com.monstergame.tools.SpannableBuilder;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.btn_appInteractive)
     Button btnAppInteractive;
+    @BindView(R.id.btn_empty)
+    Button btnEmpty;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         initListener();
+
+        btnEmpty.setText(SpannableBuilder.create(this)
+                .append("这是", R.dimen.sp11, R.color.colorPrimary)
+                .append("一个神奇的", R.dimen.sp11, R.color.colorAccent)
+                .append("按钮。", R.dimen.sp11, R.color.colorPrimaryDark)
+                .build());
 
 //        PalindromeNumber palindromeNumber = new PalindromeNumber();
 //
