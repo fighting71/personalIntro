@@ -1,0 +1,9 @@
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\bin\Debug\netstandard2.0\Command.deps.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\bin\Debug\netstandard2.0\Command.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\bin\Debug\netstandard2.0\Command.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\Command\obj\Debug\netstandard2.0\Command.pdb

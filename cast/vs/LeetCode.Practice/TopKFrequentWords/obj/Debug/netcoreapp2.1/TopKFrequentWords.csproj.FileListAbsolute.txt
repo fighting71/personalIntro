@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\bin\Debug\netcoreapp2.1\TopKFrequentWords.deps.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\bin\Debug\netcoreapp2.1\TopKFrequentWords.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\bin\Debug\netcoreapp2.1\TopKFrequentWords.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\bin\Debug\netcoreapp2.1\TopKFrequentWords.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\bin\Debug\netcoreapp2.1\TopKFrequentWords.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\TopKFrequentWords\obj\Debug\netcoreapp2.1\TopKFrequentWords.pdb
