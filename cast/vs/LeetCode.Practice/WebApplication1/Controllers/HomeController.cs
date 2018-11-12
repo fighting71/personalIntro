@@ -1,17 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
+        public ILogger<HomeController> Logger { get; }
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+
+            Logger = logger;
+        }
+
         public IActionResult Index()
         {
+
+            Logger.LogInformation("hello nlog!");
+
             return View();
         }
 
