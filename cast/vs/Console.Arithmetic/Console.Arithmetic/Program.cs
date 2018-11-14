@@ -45,18 +45,78 @@ namespace Cons.Arithmetic
     {
         private static void Main(string[] args)
         {
-            
-            FlipStringToMonotoneIncreasing demo = new FlipStringToMonotoneIncreasing();
-            Console.WriteLine(demo.OtherSolution("00110"));
-            Console.WriteLine(demo.OtherSolution("010110"));
-            Console.WriteLine(demo.OtherSolution("00011000"));
-            Console.WriteLine(demo.OtherSolution("0101100011"));
-            Console.WriteLine(demo.OtherSolution("11111"));
-            Console.WriteLine(demo.OtherSolution("0111111111"));
-            Console.WriteLine(demo.OtherSolution("10011111110010111011"));
+            ShoppingOffers demo = new ShoppingOffers();
+
+//[2,3,4]
+//                [[1,1,0,4],[2,2,1,9]]
+//                [1,2,1]
+
+            var simple = demo.Simple(new[] {2, 3, 4},
+                new[]
+                {
+                    new[] {1, 1, 0, 4},
+                    new[] {2, 2, 1, 9},
+                }, new[] {1, 2, 1});//11
+
+            Console.WriteLine(simple);
+
+//            #region test_now
+//
+//            Random rand = new Random();
+//
+//            for (int i = 0; i < 10; i++)
+//            {
+//                var count = rand.Next(3) + 1; //商品
+//
+//                var shopPrices = new List<int>();
+//                var needCounts = new List<int>();
+//
+//                for (int j = 0; j < count; j++)
+//                {
+//                    shopPrices.Add(rand.Next(10) + 2);
+//                    needCounts.Add(rand.Next(10));
+//                }
+//
+//                var specialCount = rand.Next(6) + 2; //优惠套餐数
+//
+//                IList<IList<int>> specialList = new List<IList<int>>();
+//
+//                for (int j = 0; j < specialCount; j++)
+//                {
+//                    List<int> item = new List<int>();
+//                    for (int k = 0; k < count; k++)
+//                    {
+//                        item.Add(rand.Next(10));
+//                    }
+//
+//                    item.Add(rand.Next(30) + 5); //套餐价格
+//                    specialList.Add(item);
+//                }
+//
+//                var simple = demo.Simple(shopPrices, specialList, needCounts);
+//
+//                Console.WriteLine($@"
+//
+//{nameof(shopPrices)}:{JsonConvert.SerializeObject(shopPrices)}
+//{nameof(specialList)}:{JsonConvert.SerializeObject(specialList)}
+//{nameof(needCounts)}:{JsonConvert.SerializeObject(needCounts)}
+//result:{simple}
+//
+//");
+//            }
+//
+//            #endregion
 
             #region test
 
+            //            FlipStringToMonotoneIncreasing demo = new FlipStringToMonotoneIncreasing();
+            //            Console.WriteLine(demo.OtherSolution("00110"));
+            //            Console.WriteLine(demo.OtherSolution("010110"));
+            //            Console.WriteLine(demo.OtherSolution("00011000"));
+            //            Console.WriteLine(demo.OtherSolution("0101100011"));
+            //            Console.WriteLine(demo.OtherSolution("11111"));
+            //            Console.WriteLine(demo.OtherSolution("0111111111"));
+            //            Console.WriteLine(demo.OtherSolution("10011111110010111011"));
             //            Heaters demo = new Heaters();
             //            Console.WriteLine(demo.Solution(new int[]
             //            {

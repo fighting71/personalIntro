@@ -1,0 +1,14 @@
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\KeysKeyboard.deps.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\KeysKeyboard.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\KeysKeyboard.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\KeysKeyboard.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\KeysKeyboard.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\Command.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\bin\Debug\netcoreapp2.1\Command.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\KeysKeyboard\obj\Debug\netcoreapp2.1\KeysKeyboard.csproj.CopyComplete

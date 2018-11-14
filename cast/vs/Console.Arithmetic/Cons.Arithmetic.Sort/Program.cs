@@ -6,6 +6,14 @@ using Newtonsoft.Json;
 
 namespace Cons.Arithmetic.Sort
 {
+
+    enum Empty
+    {
+        
+
+
+    }
+
     class Program
     {
         static void Main(string[] args)
