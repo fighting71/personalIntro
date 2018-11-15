@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading;
 using Cons.Arithmetic.Tools;
 using KeysKeyboard.Solution;
+using Newtonsoft.Json;
 
 namespace KeysKeyboard
 {
@@ -21,22 +23,81 @@ namespace KeysKeyboard
     /// </summary>
     class Program
     {
-
         static void Main(string[] args)
         {
-            Simple simple = new Simple();
 
-            for (int i = 100; i < 10000; i++)
+            new Thread(() =>
             {
-                var minSteps = simple.MinSteps(i);
+                Console.WriteLine(JsonConvert.SerializeObject(Thread.CurrentThread));
 
-                StopWatchTools.ShowCountTime((() => simple.MinSteps(i)));
-                StopWatchTools.ShowCountTime((() => simple.OtherSolution(i)));
-                Console.WriteLine("----------------------");
-            }
+//                while (true)
+//                {
+//                    Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                    Thread.Sleep(1000);
+//                    Thread.CurrentThread.IsBackground = true;
+//                    Thread.CurrentThread.IsBackground = true;
+//                }
 
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                Thread.Sleep(1000);
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId + ", over~");
+            }).Start();
 
+            Console.WriteLine(JsonConvert.SerializeObject(Thread.CurrentThread));
             Console.ReadKey(true);
+//
+//            new Thread(() =>
+//            {
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                Thread.Sleep(1000);
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId + ", over~");
+//            }).Start();
+//            new Thread(() =>
+//            {
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                Thread.Sleep(1000);
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId + ", over~");
+//            }).Start();
+//            new Thread(() =>
+//            {
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                Thread.Sleep(1000);
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId + ", over~");
+//            }).Start();
+//            new Thread(() =>
+//            {
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId);
+//                Thread.Sleep(1000);
+//                Console.WriteLine("i'm thread :" + Thread.CurrentThread.ManagedThreadId + ", over~");
+//            }).Start();
+//
+//            Console.WriteLine("---");
+////            ThreadPool.QueueUserWorkItem((state =>
+////            {
+////                for (int i = 0; i < 50; i++)
+////                {
+////                    Console.WriteLine(i);
+////                }
+////            }));
+//
+////            Thread.Sleep(500);
+//            Console.WriteLine("sleep finish " + Thread.CurrentThread.ManagedThreadId);
+//
+//            Console.ReadKey();
+
+//            Simple simple = new Simple();
+//
+//            for (int i = 100; i < 10000; i++)
+//            {
+//                var minSteps = simple.MinSteps(i);
+//
+//                StopWatchTools.ShowCountTime((() => simple.MinSteps(i)));
+//                StopWatchTools.ShowCountTime((() => simple.OtherSolution(i)));
+//                Console.WriteLine("----------------------");
+//            }
+//
+//
+//            Console.ReadKey(true);
         }
     }
 }

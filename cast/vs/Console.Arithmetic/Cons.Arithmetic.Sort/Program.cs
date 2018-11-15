@@ -11,7 +11,6 @@ namespace Cons.Arithmetic.Sort
     {
         
 
-
     }
 
     class Program

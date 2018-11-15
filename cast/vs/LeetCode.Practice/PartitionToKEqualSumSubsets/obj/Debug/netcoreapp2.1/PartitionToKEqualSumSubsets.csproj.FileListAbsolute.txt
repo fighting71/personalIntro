@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\bin\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.deps.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\bin\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\bin\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\bin\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\bin\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\PartitionToKEqualSumSubsets\obj\Debug\netcoreapp2.1\PartitionToKEqualSumSubsets.pdb

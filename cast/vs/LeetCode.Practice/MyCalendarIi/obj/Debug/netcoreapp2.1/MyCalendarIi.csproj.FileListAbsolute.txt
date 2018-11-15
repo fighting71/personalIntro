@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\bin\Debug\netcoreapp2.1\MyCalendarIi.deps.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\bin\Debug\netcoreapp2.1\MyCalendarIi.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\bin\Debug\netcoreapp2.1\MyCalendarIi.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\bin\Debug\netcoreapp2.1\MyCalendarIi.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\bin\Debug\netcoreapp2.1\MyCalendarIi.pdb
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.dll
+F:\work_data\git\personalIntro\cast\vs\LeetCode.Practice\MyCalendarIi\obj\Debug\netcoreapp2.1\MyCalendarIi.pdb

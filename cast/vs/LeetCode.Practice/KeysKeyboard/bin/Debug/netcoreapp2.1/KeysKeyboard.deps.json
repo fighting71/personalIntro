@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "df8a94c9ca235904c55e0686c24a4dfcc3e139b0"
+    "signature": "883f5ab0e357ef56d00e5851b3cee30b45ba651b"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,24 +9,20 @@
       "KeysKeyboard/1.0.0": {
         "dependencies": {
           "Command": "1.0.0",
-          "Microsoft.Extensions.DiagnosticAdapter": "2.1.0"
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "KeysKeyboard.dll": {}
         }
       },
-      "Microsoft.Extensions.DiagnosticAdapter/2.1.0": {
-        "dependencies": {
-          "System.Diagnostics.DiagnosticSource": "4.5.0"
-        },
+      "Newtonsoft.Json/11.0.2": {
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.Extensions.DiagnosticAdapter.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.18136"
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.5.0": {},
       "Command/1.0.0": {
         "runtime": {
           "Command.dll": {}
@@ -40,19 +36,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.DiagnosticAdapter/2.1.0": {
+    "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZZeKarCCSZujTN2h4fZv6/tAjz9Ra5EyGaRYEXYd65YxwEDpIbx11rIoE0e1h5HBsB6Rsd345zV0LAajUzX8Qg==",
-      "path": "microsoft.extensions.diagnosticadapter/2.1.0",
-      "hashPath": "microsoft.extensions.diagnosticadapter.2.1.0.nupkg.sha512"
-    },
-    "System.Diagnostics.DiagnosticSource/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UumL3CJklk5WyEt0eImPmjeuyY1JgJ7Thmg2hAeZGKCv+9iuuAsoc2wcXjypdo3J8VNEmVCH2Bgn/kIw8NI2bA==",
-      "path": "system.diagnostics.diagnosticsource/4.5.0",
-      "hashPath": "system.diagnostics.diagnosticsource.4.5.0.nupkg.sha512"
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Command/1.0.0": {
       "type": "project",
