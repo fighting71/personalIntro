@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopKFrequentWords", "TopKFr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D4C5B1FA-707C-46FF-A633-90377A4F22A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionToKEqualSumSubsets", "PartitionToKEqualSumSubsets\PartitionToKEqualSumSubsets.csproj", "{E3A7BE7B-8E6E-4DE7-824D-DDAC172083EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartitionToKEqualSumSubsets", "PartitionToKEqualSumSubsets\PartitionToKEqualSumSubsets.csproj", "{E3A7BE7B-8E6E-4DE7-824D-DDAC172083EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,11 @@
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.deps.json
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.runtimeconfig.json
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.runtimeconfig.dev.json
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.dll
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\bin\Debug\netcoreapp2.1\ConsoleApp.pdb
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.csprojAssemblyReference.cache
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.csproj.CoreCompileInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.AssemblyInfoInputs.cache
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.AssemblyInfo.cs
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.dll
+F:\work_data\git\personalIntro\cast\vs\Any\ConsoleApp\obj\Debug\netcoreapp2.1\ConsoleApp.pdb
