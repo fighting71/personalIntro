@@ -13,5 +13,9 @@ namespace ConsoleApp.Entity
 
         public int Age { get; set; }
 
+        public override string ToString()
+        {
+            return "this is UserInfo";
+        }
     }
 }
